@@ -1,0 +1,144 @@
+/*------symbol-------
+ &#119070;
+                */
+body {
+    font-family: 'Linden Hill',serif;
+   
+}
+.media-body {
+    text-align: justify;
+    padding: 50px;
+   
+    
+}
+
+blockquote {
+    padding: 10px 20px;
+    margin: 0 0 20px;
+    font-size: 20px;
+    border-left: 0;
+}
+/*---------Navbar----------*/
+
+.navbar {
+    margin:0;
+    padding:10px;
+    width: 100%;
+    background-color: #000000;
+    font-weight:600;
+    font-size: large;
+    color: #977b40;
+    position: absolute;
+    z-index: 1;
+}
+.navbar .navbar-toggle {
+    border: none;
+    
+}
+.navbar .navbar-toggle .icon-bar {
+    background-color: #ffffff;
+}
+
+.navbar .navbar-toggle:hover {
+    background-color: transparent;
+}
+
+
+.navbar .navbar-brand:hover{
+     color: #977b40;
+}
+.navbar .navbar-brand:focus {
+     color: #977b40;
+}
+.navbar-default .navbar-nav>li>a {
+    color: #977b40;
+
+}
+ .navbar-default .navbar-nav>li>a:hover {
+    outline: groove #977b40 2px;
+    color: #977b40;
+  
+  
+}
+ .navbar-default .navbar-nav>li>a:focus {
+    color: #977b40;
+    font-size: x-large;
+ }
+.navbar .navbar-brand{
+    color: #977b40;
+    font-family: 'Monoton', cursive;
+    font-size: 60px;
+    font-weight: 500;
+    margin:0;
+    padding:50px;
+    border: 0;
+}
+    
+  /*-------containers--------*/
+.callout-container {
+    height: 100vh;
+    max-width: 100%;
+
+    background: url('../images/Guitar.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+
+ /*--------- Page Headers ------*/
+.page-header {
+  
+    margin: 25px;
+    margin-bottom: 0;
+    padding: 15px;
+    padding-bottom: 0;
+    text-align: center;
+    border-bottom: none;
+}
+
+
+.media-object {
+    display: block;
+    height: 50vh;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px; 
+}
+/*----Footer--------*/
+
+
+
+
+.social-links {
+    text-align: center;
+    padding: 15px;
+}
+
+.social-links li a i{
+    width: 32px;
+    height: 32px;
+    padding:12px 0;
+    border-radius: 50%;
+    font-size: 16px;
+    line-height: 7px;
+    text-align:center;
+     background-color: #000000;
+    color: #977b40;
+     transition: all 0.40s ease-in-out;
+   -moz-transition: all 0.40s ease-in-out;
+   -webkit-transition: all 0.40s ease-in-out;
+   -o-transition: all 0.40s ease-in-out;
+}
+
+.social-links li a i:hover {
+    background:#977b40;
+    color: #ffffff;
+}
+
