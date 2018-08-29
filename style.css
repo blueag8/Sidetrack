@@ -3,20 +3,14 @@
                 */
 body {
     font-family: 'Linden Hill',serif;
-   
+    padding: 0;
+    font-size: 2rem;
 }
 .media-body {
     text-align: justify;
-    padding: 50px;
-   
-    
-}
+    padding: 50px 200px 150px 200px;
+    margin: 0;
 
-blockquote {
-    padding: 10px 20px;
-    margin: 0 0 20px;
-    font-size: 20px;
-    border-left: 0;
 }
 /*---------Navbar----------*/
 
@@ -26,10 +20,10 @@ blockquote {
     width: 100%;
     background-color: #000000;
     font-weight:600;
-    font-size: large;
     color: #977b40;
     position: absolute;
     z-index: 1;
+    font-size: 2rem;
 }
 .navbar .navbar-toggle {
     border: none;
@@ -64,13 +58,12 @@ blockquote {
     color: #977b40;
     font-size: x-large;
  }
-.navbar .navbar-brand{
+.navbar .navbar-brand {
     color: #977b40;
     font-family: 'Monoton', cursive;
-    font-size: 60px;
+    font-size: 8rem;
     font-weight: 500;
-    margin:0;
-    padding:50px;
+    margin-top: 30px;
     border: 0;
 }
     
@@ -94,23 +87,39 @@ blockquote {
 
  /*--------- Page Headers ------*/
 .page-header {
-  
-    margin: 25px;
-    margin-bottom: 0;
-    padding: 15px;
-    padding-bottom: 0;
+ 
     text-align: center;
     border-bottom: none;
+    padding: 5rem;
+    margin: 0;
 }
 
 
 .media-object {
     display: block;
-    height: 50vh;
+    height: 80vh;
     margin-left: auto;
     margin-right: auto;
-    padding: 50px; 
+    padding: 0; 
+    width: relative;
 }
+
+/*--------contact------*/
+.center-form {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin: auto;
+    max-width: 70%;
+   
+}
+
+button[type="submit"]{
+    margin-top: 15px;
+    margin-bottom: 20px;
+    background-color: #977b40;
+    color: #fafafa;
+}
+
 /*----Footer--------*/
 
 
@@ -142,3 +151,28 @@ blockquote {
     color: #ffffff;
 }
 
+.img-link {
+    background-color: rgb(86, 0, 1);
+}
+/*-------media-queries---------*/
+
+@media (min-width:992px) {
+    .center-form {
+    padding-top: 30px;
+    min-height: 240px;
+    margin: 0 auto;
+    max-width: 70%;
+    
+}
+}
+
+@media (max-width:660px){
+.media-body {
+    text-align: justify;
+    padding: 0;
+}
+}
+
+ul {
+  list-style:none;
+}
