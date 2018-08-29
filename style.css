@@ -5,6 +5,7 @@ body {
     font-family: 'Linden Hill',serif;
     padding: 0;
     font-size: 2rem;
+    text-align: center;
 }
 .media-body {
     text-align: justify;
@@ -110,6 +111,7 @@ body {
     padding-bottom: 50px;
     margin: auto;
     max-width: 70%;
+    border-color: #
    
 }
 
@@ -151,8 +153,18 @@ button[type="submit"]{
     color: #ffffff;
 }
 
-.img-link {
+.railway-logo {
     background-color: rgb(86, 0, 1);
+}
+.img-thumbnail {
+    display: inline-block;
+    max-width: 20vh;
+   border-radius: 4px;
+    -webkit-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+    margin-bottom: 20px;
+    margin-top: 20px;
 }
 /*-------media-queries---------*/
 
@@ -174,5 +186,11 @@ button[type="submit"]{
 }
 
 ul {
-  list-style:none;
+    list-style: none;
+    padding: 0;
+    margin-bottom: 20px;
+}
+.h1, .h2, .h3, h1, h2, h3 {
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
