@@ -13,6 +13,19 @@ body {
     margin: 0;
 
 }
+ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 20px;
+}
+.h1, .h2, .h3, h1, h2, h3 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.row {
+    margin: 0;
+}
+
 /*---------Navbar----------*/
 
 .navbar {
@@ -122,21 +135,29 @@ body {
     color: #171515;
     background-color: #eee;
     background-image: none;
-    border: 1px solid #8a6d3b;
+    border: 1px solid #977b40;
     border-radius: 4px;
-    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
-    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
     -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
     -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
     transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
    
 }
 
+.form-control:focus {
+    border: solid #977b40;
+}
+
 button[type="submit"]{
     margin-top: 15px;
     margin-bottom: 20px;
+    background-color: #000000;
+    color: #977b40;
+}
+button[type="submit"]:hover {
+    margin-top: 15px;
+    margin-bottom: 20px;
     background-color: #977b40;
-    color: #fafafa;
+    color:#fafafa;
 }
 
 /*----Footer--------*/
@@ -146,14 +167,15 @@ button[type="submit"]{
 
 .social-links {
     text-align: center;
-    padding: 15px;
+    padding: 16px;
+    
 }
 
 .social-links li a i{
-    width: 32px;
-    height: 32px;
-    padding:12px 0;
-    border-radius: 50%;
+    width: 42px;
+    height: 42px;
+     padding: 16px 0;
+    border-radius: 30%;
     font-size: 16px;
     line-height: 7px;
     text-align:center;
@@ -169,13 +191,16 @@ button[type="submit"]{
     background:#977b40;
     color: #ffffff;
 }
-
-.railway {
-    
+.img-circle {
+    border-radius: 30%;
+    height: 42px;
+    width: 42px;
+     background-color: rgb(86, 0, 1);
 }
 .railway-logo {
     background-color: rgb(86, 0, 1);
 }
+
 .img-thumbnail {
     display: inline-block;
     max-width: 20vh;
@@ -196,21 +221,46 @@ button[type="submit"]{
     max-width: 70%;
     
 }
-}
 
-@media (max-width:660px){
+@media (max-width:760px){
 .media-body {
     text-align: justify;
+    padding: 30px;
+}
+.navbar .navbar-brand {
+    color: #977b40;
+    font-family: 'Monoton', cursive;
+    font-size: 4rem;
+    font-weight: 500;
+    margin: 0;
+    border: 0;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+.callout-container {
+    background-position: left;
+}
+
+.media-object {
+    display: block;
+    height: 40vh;
+    margin-left: auto;
+    margin-right: auto;
     padding: 0;
+}
+.page-header {
+ 
+   padding: 0;
+}
+
+.navbar-toggle {
+    position: absolute;
+    margin-top: 25px;
+    padding-left: 0;
+}
+p {
+    margin:0;
 }
 }
 
-ul {
-    list-style: none;
-    padding: 0;
-    margin-bottom: 20px;
-}
-.h1, .h2, .h3, h1, h2, h3 {
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
