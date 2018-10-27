@@ -162,23 +162,20 @@ button[type="submit"]:hover {
 
 /*----Footer--------*/
 
-
-
-
 .social-links {
-    text-align: center;
-    padding: 16px;
-    
+    padding-bottom: 30px;
+    padding-top: 30px;
+    margin-bottom: 30px;
+
+  
 }
 
 .social-links li a i{
-    width: 42px;
-    height: 42px;
-     padding: 16px 0;
-    border-radius: 30%;
-    font-size: 16px;
-    line-height: 7px;
-    text-align:center;
+    width: 10vh;
+   height: 10vh;
+ font-size: 200%;
+ line-height: 10vh;
+ border-radius: 30%;
      background-color: #000000;
     color: #977b40;
      transition: all 0.40s ease-in-out;
@@ -188,29 +185,35 @@ button[type="submit"]:hover {
 }
 
 .social-links li a i:hover {
-    background:#977b40;
-    color: #ffffff;
-}
-.img-circle {
-    border-radius: 30%;
-    height: 42px;
-    width: 42px;
-     background-color: rgb(86, 0, 1);
-}
-.railway-logo {
-    background-color: rgb(86, 0, 1);
+     border-radius: 30%;
+    height: 15vh;
+    width: 15vh;
+    font-size: 200%;
+    line-height: 15vh;
 }
 
-.img-thumbnail {
-    display: inline-block;
-    max-width: 20vh;
-   border-radius: 4px;
-    -webkit-transition: all .2s ease-in-out;
-    -o-transition: all .2s ease-in-out;
-    transition: all .2s ease-in-out;
-    margin-bottom: 20px;
-    margin-top: 20px;
+.img-circle{
+    border-radius: 30%;
+    height: 10vh;
+    width: 10vh;
+     background-color: rgb(86, 0, 1);
+     transition: all 0.40s ease-in-out;
+   -moz-transition: all 0.40s ease-in-out;
+   -webkit-transition: all 0.40s ease-in-out;
+   -o-transition: all 0.40s ease-in-out;
 }
+.img-circle:hover{
+    border-radius: 30%;
+    height: 15vh;
+    width: 15vh;
+     background-color: rgb(86, 0, 1);
+
+}
+.railway-logo {
+     background-color: rgb(86, 0, 1);
+}
+
+
 /*-------media-queries---------*/
 
 @media (min-width:992px) {
