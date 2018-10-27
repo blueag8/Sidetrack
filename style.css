@@ -212,18 +212,12 @@ button[type="submit"]:hover {
 .railway-logo {
      background-color: rgb(86, 0, 1);
 }
+/*-----video------*/
 
-
-/*-------media-queries---------*/
-
-@media (min-width:992px) {
-    .center-form {
-    padding-top: 30px;
-    min-height: 240px;
-    margin: 0 auto;
-    max-width: 70%;
-    
+video {
+    width: 80vh;
 }
+/*-------media-queries---------*/
 
 @media (max-width:760px){
 .media-body {
@@ -251,6 +245,18 @@ button[type="submit"]:hover {
     margin-left: auto;
     margin-right: auto;
     padding: 0;
+}
+
+video {
+
+    display: block;
+    height: 40vh;
+    width: 40vh;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+
+
 }
 .page-header {
  
