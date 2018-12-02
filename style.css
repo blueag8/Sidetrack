@@ -125,16 +125,14 @@ ul {
 video {
     width: 80vh;
 }
-.carousel-caption {
-  background-color: #fff;
-  color: #977b40;
-  font-size: 18px;
-  position: inherit;
-  text-shadow: none;
-}
 
-.carousel-inner {
-    padding:20px;
+.carousel-caption {
+    background-color: #fff;
+    color: #977b40;
+    font-size: 18px;
+    text-shadow: none;
+    position: inherit;
+    margin-top: 0px;
 }
 
 /*--------contact-us------*/
@@ -213,6 +211,7 @@ button[type="submit"]:hover {
 
 .img-circle{
     border-radius: 30%;
+    margin-top: -15px;
     height: 10vh;
     width: 10vh;
      background-color: rgb(86, 0, 1);
@@ -230,6 +229,11 @@ button[type="submit"]:hover {
 }
 .railway-logo {
      background-color: rgb(86, 0, 1);
+
+}
+
+.a.facebook {
+    vertical-align: middle;
 }
 
 
@@ -239,6 +243,10 @@ button[type="submit"]:hover {
 .media-body {
     text-align: justify;
     padding: 30px;
+}
+
+.img-thumbnail michonne{
+    
 }
 .navbar .navbar-brand {
     color: #977b40;
