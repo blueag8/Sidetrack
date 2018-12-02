@@ -135,6 +135,16 @@ video {
     margin-top: 0px;
 }
 
+.carousel-inner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    height: 700px;
+}
+.carousel-inner>.item>a>img, .carousel-inner>.item>img {
+    height: 500px;
+
+}
 /*--------contact-us------*/
 .center-form {
     padding-top: 50px;
