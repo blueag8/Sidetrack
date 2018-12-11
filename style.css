@@ -6,6 +6,8 @@ body {
     padding: 0;
     font-size: 2rem;
     text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .media-body {
     text-align: justify;
@@ -29,6 +31,18 @@ ul {
     margin: 0;
 }
 
+a {
+    color: #8a6d3b;
+    text-decoration: none;
+}
+
+a:focus {
+    color: #8a6d3b;
+    text-decoration: none;
+}
+a:hover { 
+    color: #8a6d3b;
+}
 /*---------Navbar----------*/
 
 .navbar {
@@ -129,11 +143,14 @@ video {
 .carousel-caption {
     background-color: #fff;
     color: #977b40;
-    font-size: 18px;
+    font-size: 32px;
+    font-weight: 400;
     text-shadow: none;
     position: inherit;
     margin-top: 0px;
+    background-color: rgba(255, 255, 255, 0.4);
 }
+
 
 .carousel-inner {
     position: relative;
@@ -143,7 +160,19 @@ video {
 }
 .carousel-inner>.item>a>img, .carousel-inner>.item>img {
     height: 500px;
+}
 
+.Performance-list {
+    color: #050505;
+    font-weight: 700;
+    font-size: 32px;
+    margin-top: 300px;
+}
+
+.img-thumbnail{
+    max-width: 200px;
+    border:none;
+    background-color: transparent;
 }
 /*--------contact-us------*/
 .center-form {
@@ -249,15 +278,13 @@ button[type="submit"]:hover {
 
 /*-------media-queries---------*/
 
-@media (max-width:760px){
+@media (max-width:768px){
 .media-body {
-    text-align: justify;
+    text-align: left;
     padding: 30px;
 }
 
-.img-thumbnail michonne{
-    
-}
+
 .navbar .navbar-brand {
     color: #977b40;
     font-family: 'Monoton', cursive;
@@ -269,7 +296,13 @@ button[type="submit"]:hover {
     padding-bottom: 50px;
 }
 
-.callout-container {
+.callout-container{
+
+    background: url('../images/Guitar.jpg') no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     background-position: left;
 }
 
@@ -303,5 +336,20 @@ video {
 p {
     margin:0;
 }
+
+
+.carousel-caption {
+    font-size: 20px;
 }
 
+.carousel-inner {
+    height: 400px;
+}
+.carousel-inner>.item>a>img, .carousel-inner>.item>img {
+    height: 250px;
+}
+.Performance-list {
+    margin-top: 0;
+}
+
+}
