@@ -51,10 +51,12 @@ In addition, the website should promote live music in Port Adelaide, in particul
 -Additional soundclips
 -Repertoire list
 -Upcoming performances list
+-Contact us form to be linked to external server for posting 
+-Ensure website is responsive for tablet users 
 
 ## Technologies used
 
-Base languages used to create website include HTML, CSS and JavaScript.
+Base languages used to create website include HTML, CSS and JavaScript
 
 ###	JQuery to support the implementation of JavaScript and Bootstrap
  https://code.jquery.com/jquery-3.2.1.min.js
@@ -76,23 +78,61 @@ https://fonts.googleapis.com/css?family=Monoton
 ###	Hover css used to animate navigation
 https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css
 
+## Site can be viewed [Here]
+https://blueag8.github.io/Sidetrack/index.html
+
 
 ## Testing 
 
 ### Responsive Design Mobile First
-    1. 
-    
+Site viewed and tested using 
+Mobile 
+    -Samsung Galaxy 
+    -iphone 6
+
+Desktop (Devtools)
+    -Chrome
+    -Internet Explorer
+
+Collapse Navigation Bar for mobile design, Responsive Images to scale to fit viewport, Stack vertically affiliate links
+on Performance page, Ensure links work. 
+
 ### Navigation
-    1.
+    Ensured links to pages including external websites weren't broken 
+    External links open in new tab
+
 
 ### Contact Us Form 
-    1.
+    Submitted the empty form to verify that an error message about the required fields appears
+    link opens to compose email on users browser
+
     
 ### Soundclip 
-    1.
+    Ensured video will play on multiple browsers
+    Ensured there are controls to play video active
     
+    
+### Difficulties encountered
+
+i.  Background Image disappearing and not scaling 
+ii.  Carousel animation jumping
+iii.  Social Media links not lining up
+iv.  Images not responding when change in viewport ie desktop to mobile view
+
+#### Solutions
+
+i.
+ii.
+iii.
+iv.
+
+
+
 ## Deployment
-Github 
+Site deployed using Github
+
+Initially the background images disappeared when deployed through Github however,
+this was rectified with a correction to the image filepath. 
 
 ## Credits
 
@@ -106,10 +146,13 @@ Github
 	Professional photography by Henk DeWeerd
 	Background image on the performances page only has been used from a third party with credit to
 	https://www.pexels.com/photo/acoustic-guitar-gerritt-tisdale-guitar-martin-guitar-938489
-
+	Treble Clef image using code on About page from:
+	http://www.codetable.net/decimal/119070
+    Images resized and converted to PNG thanks to:
+    https://tinyjpg.com/
 
 ## Acknowledgements
 
 Mentor- Antonio Rodriguez 
-Codeinstitute-In particular "Bootstrapping Your Next Big Idea"
+CodeInstitute- In particular "Bootstrapping Your Next Big Idea"
 Slack- Kevin Curtis, Jo Wings, Mormoran, Eventyret_Mentor, JohnL3
