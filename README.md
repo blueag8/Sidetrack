@@ -13,17 +13,18 @@ such as weddings, funerals and dinner parties.
 
 
 They wish to include:
-	-Photos of performances
-	-Some video clips
-	-Some audio clips to demonstrate their diversity of repertoire
-	-A list of current repertoires
-	-An option to promote additions to the repertoire
+
+- Photos of performances
+- Some video clips
+- Some audio clips to demonstrate their diversity of repertoire
+- A list of current repertoires
+- An option to promote additions to the repertoire
 
 In addition, the website should promote live music in Port Adelaide, in particular
-	-The Railway Hotel – Port Adelaide
+
+- The Railway Hotel – Port Adelaide
     www.railwayhotelportadelaide.com/
- 
-	-Michonne Wine Bar: Michonne - Reds, Whites and Bites
+- Michonne Wine Bar: Michonne - Reds, Whites and Bites
     www.michonne.com.au/
 
 ### Wireframes
@@ -37,22 +38,22 @@ In addition, the website should promote live music in Port Adelaide, in particul
 
 ## Features
 
--Striking Image to capture attention used as background Imagery
--Easy Navigation including "back to top" link 
--Links to external websites
--Contact us Form to contact band regarding availabilities and performances
--Image Carousel
--Video for a soundclip sample
--Mobile responsive design
+- Striking Image to capture attention used as background Imagery
+- Easy Navigation including "back to top" link 
+- Links to external websites
+- Contact us Form to contact band regarding availabilities and performances
+- Image Carousel
+- Video for a soundclip sample
+- Mobile responsive design
 
 ### Features left to implement
 
--Facebook page is yet to be set up so link is currently back to the index page
--Additional soundclips
--Repertoire list
--Upcoming performances list
--Contact us form to be linked to external server for posting 
--Ensure website is responsive for tablet users 
+- Facebook page is yet to be set up so link is currently back to the index page
+- Additional soundclips
+- Repertoire list
+- Upcoming performances list
+- Contact us form to be linked to external server for posting 
+- Ensure website is responsive for tablet users 
 
 ## Technologies used
 
@@ -81,18 +82,20 @@ https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css
 ## Site can be viewed [Here]
 https://blueag8.github.io/Sidetrack/index.html
 
+## Link to C9 Development [Here]
+https://ide.c9.io/blueag8/ucfd-project
 
 ## Testing 
 
 ### Responsive Design Mobile First
 Site viewed and tested using 
 Mobile 
-    -Samsung Galaxy 
-    -iphone 6
+- Samsung Galaxy 
+- iphone 6
 
 Desktop (Devtools)
-    -Chrome
-    -Internet Explorer
+- Chrome
+- Internet Explorer
 
 Collapse Navigation Bar for mobile design, Responsive Images to scale to fit viewport, Stack vertically affiliate links
 on Performance page, Ensure links work. 
@@ -114,10 +117,10 @@ on Performance page, Ensure links work.
     
 ### Difficulties encountered
 
-i.  Background Image disappearing and not scaling 
-ii.  Carousel animation jumping
-iii.  Social Media links not lining up
-iv.  Images not responding when change in viewport ie desktop to mobile view
+1. Background Image disappearing and not scaling 
+2. Carousel animation jumping
+3.  Social Media links not lining up
+4.  Images not responding when change in viewport ie desktop to mobile view
 
 #### Solutions
 
@@ -138,7 +141,7 @@ this was rectified with a correction to the image filepath.
 
 ### Content
 
-    Content supplied by “Sidetrack” -Catherine Jamieson
+    Content supplied by “Sidetrack” - Catherine Jamieson
 
 ### Media 
 
@@ -153,6 +156,11 @@ this was rectified with a correction to the image filepath.
 
 ## Acknowledgements
 
-Mentor- Antonio Rodriguez 
-CodeInstitute- In particular "Bootstrapping Your Next Big Idea"
-Slack- Kevin Curtis, Jo Wings, Mormoran, Eventyret_Mentor, JohnL3
+Mentor
+- Antonio Rodriguez 
+
+CodeInstitute
+- In particular "Bootstrapping Your Next Big Idea"
+
+Slack
+- Kevin Curtis, Jo Wings, Mormoran, Eventyret_Mentor, JohnL3
