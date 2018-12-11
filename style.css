@@ -103,7 +103,7 @@ a:hover {
     height: 100vh;
     max-width: 100%;
 
-    background: url('../images/Guitar.jpg') no-repeat center center fixed;
+    background: url('images/Guitar.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;

@@ -104,7 +104,8 @@ Github
 
 	The photos used in this site were obtained from the duo. 
 	Professional photography by Henk DeWeerd
-	Background image on the performances page only has been used from a third party with credit to https://www.pexels.com/photo/acoustic-guitar-gerritt-tisdale-guitar-martin-guitar-938489
+	Background image on the performances page only has been used from a third party with credit to
+	https://www.pexels.com/photo/acoustic-guitar-gerritt-tisdale-guitar-martin-guitar-938489
 
 
 ## Acknowledgements
