@@ -1,5 +1,12 @@
 # User Centric Front-end Project- Milestone 1 Naomi Wickham
 
+## Site can be viewed [Here]
+https://blueag8.github.io/Sidetrack/index.html
+
+## Link to C9 Development [Here]
+https://ide.c9.io/blueag8/ucfd-project
+
+## About
 This website is for the flute and guitar duo “Sidetrack” to showcase their music
 and publicise their availability to perform at events. Users can also contact the duo
 to enquire about availability or upcoming performances. 
@@ -79,11 +86,6 @@ https://fonts.googleapis.com/css?family=Monoton
 ###	Hover css used to animate navigation
 https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css
 
-## Site can be viewed [Here]
-https://blueag8.github.io/Sidetrack/index.html
-
-## Link to C9 Development [Here]
-https://ide.c9.io/blueag8/ucfd-project
 
 ## Testing 
 
@@ -115,12 +117,15 @@ on Performance page, Ensure links work.
     Ensured there are controls to play video active
     
     
-### Difficulties encountered
+### Difficulties/issues encountered
 
 1. Background Image disappearing and not scaling 
 2. Carousel animation jumping
 3.  Social Media links not lining up
 4.  Images not responding when change in viewport ie desktop to mobile view
+5.  Was not obvious to the user when a page change had occured without 
+   seeing the URL or scrolling down the page.
+6. Animation causing page to jump
 
 #### Solutions
 
@@ -163,4 +168,5 @@ CodeInstitute
 - In particular "Bootstrapping Your Next Big Idea"
 
 Slack
-- Kevin Curtis, Jo Wings, Mormoran, Eventyret_Mentor, JohnL3
+- Kevin Curtis, Jo Wings, Mormoran, Eventyret_Mentor, JohnL3,
+- E.Fred, ShaneMuir_lead

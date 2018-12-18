@@ -9,20 +9,26 @@ body {
     text-align: center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
+    font-weight: bold;
 }
 .media-body {
     text-align: justify;
     padding: 50px 200px 150px 200px;
     margin: 0;
+}
 
+li {
+    list-style: none;
 }
 ol {
     padding: 0;
+    list-style: none;
 }
 ul {
     list-style: none;
     padding: 0;
-    margin-bottom: 20px;
+    margin-bottom: 0px;
 }
 .h1, .h2, .h3, h1, h2, h3 {
     margin-top: 20px;
@@ -100,31 +106,48 @@ a:hover {
 }
     
   /*-------containers--------*/
-.callout-container {
-    height: 100vh;
-    max-width: 100%;
-
-    background: url('images/Guitar.jpg') no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    position: relative;
+#Contact {    
+    background-color: #333333d6;
+    padding-top: 70px;
+    padding-bottom: 50px;
 }
+
+.Main {
+    background-color: rgb(255,255,255,.6);
+    font-weight: 600;
+}
+
+/*---Animation---*/
+
+.Main {
+     padding-bottom: 50px;
+    animation-name: onload;
+    animation-timing-function:ease-in;
+    animation-fill-mode:forwards;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+       
+}
+ @keyframes onload {
+  
+  from{
+      transform:translateY(600px);
+        
+    }
+   to{
+       transform: translateY(70px);
+    }
+}
+
+
 
  /*--------- Page Headers ------*/
 .page-header {
  
     text-align: center;
     border-bottom: none;
-    padding: 5rem;
-    margin: 0;
-}
+    padding-top: 50px;
+    }
 
 
 .media-object {
@@ -149,7 +172,7 @@ video {
     text-shadow: none;
     position: inherit;
     margin-top: 0px;
-    background-color: rgba(255, 255, 255, 0.4);
+    background-color: rgba(255, 255, 255, 0.85);
 }
 
 
@@ -158,16 +181,16 @@ video {
     width: 100%;
     overflow: hidden;
     height: 700px;
+    margin-top: 95px;
 }
 .carousel-inner>.item>a>img, .carousel-inner>.item>img {
-    height: 500px;
+    height: 50vh;
 }
 
 .Performance-list {
     color: #050505;
     font-weight: 700;
     font-size: 32px;
-    margin-top: 300px;
 }
 
 .img-thumbnail{
@@ -181,6 +204,12 @@ video {
     padding-bottom: 50px;
     margin: auto;
     max-width: 70%;
+}
+
+
+.contact-us {
+    color: #977b40;
+    font-weight: 600;
 }
 .form-control {
     display: block;
@@ -220,10 +249,9 @@ button[type="submit"]:hover {
 /*----Footer--------*/
 
 .mysocial {
-    padding-bottom: 30px;
+    padding-bottom: 0px;
     padding-top: 30px;
-    margin-bottom: 30px;
-
+    margin-bottom: 50px;
   
 }
 
@@ -274,6 +302,10 @@ button[type="submit"]:hover {
 
 .a.facebook {
     vertical-align: middle;
+}
+
+.copyright{
+    color: #977b40;
 }
 
 
