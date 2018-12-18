@@ -151,13 +151,15 @@ this was rectified with a correction to the image filepath.
 ### Media 
 
 	The photos used in this site were obtained from the duo. 
-	Professional photography by Henk DeWeerd
+	Professional photography by Henk De Weerd
 	Background image on the performances page only has been used from a third party with credit to
 	https://www.pexels.com/photo/acoustic-guitar-gerritt-tisdale-guitar-martin-guitar-938489
 	Treble Clef image using code on About page from:
 	http://www.codetable.net/decimal/119070
     Images resized and converted to PNG thanks to:
     https://tinyjpg.com/
+    Copyright Symbol
+    https://webmasters.stackexchange.com/questions/29682/how-do-i-add-the-copyright-symbol-to-my-webpage
 
 ## Acknowledgements
 
