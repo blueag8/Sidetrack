@@ -55,6 +55,7 @@ a:hover {
 
 .navbar {
     margin:0;
+    padding-bottom: 15px;
     width: 100%;
     background-color: #000000;
     font-weight:600;
@@ -118,7 +119,7 @@ a:hover {
 
 .Main {
     font-weight: 600;
-     background-color: #ffffffcd;
+     background-color: #ffffsffcd;
      padding-bottom: 50px;
     animation-name: onload;
     animation-timing-function:ease-in;
@@ -176,9 +177,6 @@ video {
 
 
 .carousel-inner {
-    position: relative;
-    width: 100%;
-    overflow: hidden;
     height: 700px;
     margin-top: 95px;
 }
@@ -278,7 +276,6 @@ button[type="submit"]:hover {
 
 .img-circle{
     border-radius: 30%;
-    margin-top: -15px;
     height: 10vh;
     width: 10vh;
      background-color: rgb(86, 0, 1);
@@ -291,15 +288,15 @@ button[type="submit"]:hover {
     border-radius: 30%;
     height: 15vh;
     width: 15vh;
-     background-color: rgb(86, 0, 1);
+    background-color: rgba(86, 0, 1);
 
 }
 .railway-logo {
-     background-color: rgb(86, 0, 1);
+     background-color: rgba(86, 0, 1);
 
 }
 
-.a.facebook {
+.fa {
     vertical-align: middle;
 }
 
@@ -324,6 +321,9 @@ body {
     
 }
 
+.navbar {
+    padding-bottom: 0;
+}
 .navbar .navbar-brand {
     color: #977b40;
     font-family: 'Monoton', cursive;

@@ -121,18 +121,32 @@ on Performance page, Ensure links work.
 
 1. Background Image disappearing and not scaling 
 2. Carousel animation jumping
-3.  Social Media links not lining up
-4.  Images not responding when change in viewport ie desktop to mobile view
-5.  Was not obvious to the user when a page change had occured without 
-   seeing the URL or scrolling down the page.
+3. Social Media links not lining up
+4. Images not responding when change in viewport ie desktop to mobile view
+5. After feedback from a fellow student It Was pointed out that it was not obvious
+  to the user when a page change had occured without seeing the URL or 
+  scrolling down the page.
 6. Animation causing page to jump
 
 #### Solutions
 
-i.
-ii.
-iii.
-iv.
+1. Removed the background image filepath from the Css Style sheet and put it into 
+   the html for each page. I also resized the original image.
+2. Resized the performances images using tinyjpg.com and re-saved into cloud9.
+   I adjusted the carousel-inner styles by giving a new height and in addition
+   targeted the carousel-inner item image with adjusting the height and margin top.
+3. The Facebook icon had a different alignment to the other two links because they were
+   classed as img-circle. To amend this issue I removed the margin-top from the 
+   img-circle class and I styled the .fa class with vertical-alignment middle.
+4. this was a matter of adjusting the media qeuries 
+5. To maintain the consistancy of the website the background and navigation was 
+   kept the same. To make it more obvious to the user that the webpage has changed
+   an opaque animation was added which slides up the page on load. 
+6. I found that after a suggestion from one of the mentors that I needed to wrap rows 
+   and columns with a container for bootstrap.  I edited the html to ensure that 
+   I had containers around my rows. This seemed to adjust some of the layout. 
+   I also adjusted the values for the Main properties and this seemed to help 
+   reduce the appearance of the jumping when the opaque overlay is being animated.
 
 
 
