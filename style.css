@@ -119,8 +119,9 @@ a:hover {
 
 .Main {
     font-weight: 600;
-     background-color: #ffffsffcd;
-     padding-bottom: 50px;
+    background-color:rgb(245, 245, 245);
+    background-color:rgba(245, 245, 245, 0.86);
+    padding-bottom: 50px;
     animation-name: onload;
     animation-timing-function:ease-in;
     animation-fill-mode:forwards;
@@ -165,13 +166,13 @@ video {
 }
 
 .carousel-caption {
-    background-color: #fff;
     color: #977b40;
     font-size: 32px;
     font-weight: 400;
     text-shadow: none;
     position: inherit;
     margin-top: 0px;
+    background-color: rgb(255, 255, 255);
     background-color: rgba(255, 255, 255, 0.85);
 }
 
@@ -288,11 +289,11 @@ button[type="submit"]:hover {
     border-radius: 30%;
     height: 15vh;
     width: 15vh;
-    background-color: rgba(86, 0, 1);
+    background-color: rgb(86, 0, 1);
 
 }
 .railway-logo {
-     background-color: rgba(86, 0, 1);
+     background-color: rgb(86, 0, 1);
 
 }
 
