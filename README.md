@@ -156,6 +156,12 @@ Site deployed using Github
 Initially the background images disappeared when deployed through Github however,
 this was rectified with a correction to the image filepath. 
 
+I had to re-edit the background colours to ensure they had fallback colour codes and 
+I also discovered that I  must have reverted to an earlier version of my repository 
+and the opaque white background which loads with page, had disappeared which not only
+made it difficult again for the user to see the page change but also difficult to read
+the black font on a dark background. 
+
 ## Credits
 
 ### Content
