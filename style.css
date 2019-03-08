@@ -51,6 +51,15 @@ a:focus {
 a:hover { 
     color: #8a6d3b;
 }
+
+.list-inline {
+    height: 20vh;
+}
+.media-middle 
+{ height: auto;
+  width:100%;
+}
+
 /*---------Navbar----------*/
 
 .navbar {
@@ -153,17 +162,19 @@ a:hover {
 
 .media-object {
     display: block;
-    height: 80vh;
+    width: 50%;
     margin-left: auto;
     margin-right: auto;
     padding: 0; 
-    width: relative;
+ 
 }
 /*-----Performances------*/
 
 video {
-    width: 40vh;
-}
+width:90%;
+height:auto;
+} 
+
 
 .carousel-caption {
     color: #977b40;
@@ -256,7 +267,7 @@ button[type="submit"]:hover {
 .mysocial li a i{
     width: 10vh;
    height: 10vh;
- font-size: 200%;
+   font-size: 5vh;
  line-height: 10vh;
  border-radius: 30%;
      background-color: #000000;
@@ -267,13 +278,6 @@ button[type="submit"]:hover {
    -o-transition: all 0.40s ease-in-out;
 }
 
-.mysocial li a i:hover {
-     border-radius: 30%;
-    height: 15vh;
-    width: 15vh;
-    font-size: 200%;
-    line-height: 15vh;
-}
 
 .img-circle{
     border-radius: 30%;
@@ -285,13 +289,7 @@ button[type="submit"]:hover {
    -webkit-transition: all 0.40s ease-in-out;
    -o-transition: all 0.40s ease-in-out;
 }
-.img-circle:hover{
-    border-radius: 30%;
-    height: 15vh;
-    width: 15vh;
-    background-color: rgb(86, 0, 1);
 
-}
 .railway-logo {
      background-color: rgb(86, 0, 1);
 
@@ -307,12 +305,32 @@ button[type="submit"]:hover {
 
 
 /*-------media-queries---------*/
-
+@media(min-width:767px){
+    .mysocial li a i:hover {
+     border-radius: 30%;
+    height: 15vh;
+    width: 15vh;
+    font-size: 200%;
+    line-height: 15vh;
+        
+    }
+    
+    .img-circle:hover{
+    border-radius: 30%;
+    height: 15vh;
+    width: 15vh;
+    background-color: rgb(86, 0, 1);
+}
+}
 @media (max-width:768px){
+.media-object {
+    display: block;
+     width: 100%;
+}
     
 .media-body {
-    text-align: left;
-    padding: 30px;
+    text-align: center;
+    padding: 10px;
 }
 
 body {
@@ -336,24 +354,6 @@ body {
     padding-bottom: 50px;
 }
 
-
-.media-object {
-    display: block;
-    height: 40vh;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 0;
-}
-
-video {
-
-    display: block;
-    height: 40vh;
-    width: 40vh;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 0;
-}
 .page-header {
  
    padding: 0;
@@ -382,5 +382,6 @@ p {
 .Performance-list {
     margin-top: 0;
 }
+
 
 }
