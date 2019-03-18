@@ -8,8 +8,8 @@ https://ide.c9.io/blueag8/ucfd-project
 
 ## About
 This website is for the flute and guitar duo “Sidetrack” to showcase their music
-and publicise their availability to perform at events. Users can also contact the duo
-to enquire about availability or upcoming performances. 
+and publicise their availability to perform at events. 
+Users can also contact the duo to enquire about availability or upcoming performances. 
 
 ## UX
 
@@ -98,6 +98,8 @@ Mobile
 Desktop (Devtools)
 - Chrome
 - Internet Explorer
+- Responsinator.com
+- responsivechecker.net
 
 Collapse Navigation Bar for mobile design, Responsive Images to scale to fit viewport, Stack vertically affiliate links
 on Performance page, Ensure links work. 
@@ -162,6 +164,29 @@ and the opaque white background which loads with page, had disappeared which not
 made it difficult again for the user to see the page change but also difficult to read
 the black font on a dark background. 
 
+A few adjustments needed to be made to the code after the first initial attempt at
+deployment. 
+
+-the social media links seemed to be creating a jiggle effect on the browser when 
+hovered over as I have allowed them to "grow" on hover.  To fix this issue I added 
+top padding and a bottom margin to the footer div class "mysocial" which allowed more 
+room for the list inline thus more room for the transition to appear smooth and
+not to push the surrounding divs. I also decided to limit the animation of the 
+links only to larger medias like ipads and desktop.
+
+-I also noticed that despite using "https://www.responsinator.com/" which was recommended 
+to me by my mentor (a great tool for checking the responsiveness across multiple devices 
+on one page), when I opened the site using my personal iphone 6, the background 
+image was not responding the way I wanted.
+It seemed perfect via the dev tool and also on "responsinator.com" but was 
+too large on my mobile. I found that by targeting the height in both the html 
+and the body, and setting the background-attachment media query to scroll, 
+it seemed to rectify this issue.
+
+-My sister who has an iphone Plus commented that the writing was distorted on her 
+phone.  I looked into my stylesheet and noticed I had a min-width set for media
+queries. Once i removed the min-width the site seemed to work across all medias.
+
 ## Credits
 
 ### Content
@@ -172,15 +197,20 @@ the black font on a dark background.
 
 	The photos used in this site were obtained from the duo. 
 	Professional photography by Henk De Weerd
+	
 	Background image on the performances page only has been used from a third party with credit to
 	https://www.pexels.com/photo/acoustic-guitar-gerritt-tisdale-guitar-martin-guitar-938489
-	Treble Clef image using code on About page from:
+	
+	Treble Clef image using code on About page from: (decided to not use)
 	http://www.codetable.net/decimal/119070
+	
     Images resized and converted to PNG thanks to:
     https://tinyjpg.com/
+    
     Copyright Symbol
     https://webmasters.stackexchange.com/questions/29682/how-do-i-add-the-copyright-symbol-to-my-webpage
-
+   
+   
 ## Acknowledgements
 
 Mentor
@@ -192,3 +222,9 @@ CodeInstitute
 Slack
 - Kevin Curtis, Jo Wings, Mormoran, Eventyret_Mentor, JohnL3,
 - E.Fred, ShaneMuir_lead
+
+Responsive aid
+    https://www.responsinator.com/
+
+Adjusting responsive mobile background
+    https://stackoverflow.com/questions/13327532/body-height-not-filling-100-page-height/20807978
